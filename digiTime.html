@@ -7,9 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  </div>
-  <!-- Button in upper right corner -->
-  <button class="toggle-btn" id="toggleBgBtn">Change background</button>
+  <!-- Background selector -->
+  <select class="bg-select" id="bgSelect">
+    <option value="auto" selected>⏰ Auto</option>
+    <option value="0">🌅 Morning</option>
+    <option value="1">☀️ Afternoon</option>
+    <option value="2">🌆 Evening</option>
+    <option value="3">🌙 Night</option>
+  </select>
 
   <h2>Digital clock</h2>
   <div class="clock"> 
@@ -53,7 +58,8 @@
       <button class="main-btn btn-stop" id="stopBtn">Stop</button>
       <button class="main-btn btn-continue hidden" id="continueBtn">Continue</button>
     </div>
+  </div>
 
-  <script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
