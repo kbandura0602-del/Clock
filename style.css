@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1585288366622-0c651ab70ab3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvcml6b250JTIwdmlldyUyMGRlc2N0b3B8ZW58MHwwfDB8fHww");
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.clock{
+  display: flex;
+}
+
+.clock div{
+  margin: 24px;
+}
+
+.clock span{
+  color: black;
+  width: 100px;
+  height: 110px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 96px;
+
+}
+
+.clock .text{
+  height: 8px;
+  font-size: 14px;
+}
+
+.clock #ampm{
+  bottom: 8;
+  position: absolute;
+  font-size: 24px;
+  width: 30;
+  height: 40;
+  margin-top: 28px;
+
+}
+
+.timer-app {
+      /*background: #ffffff;*/
+      border-radius: 24px;
+      padding: 32px 28px;
+      /*box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);*/
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+}
+
+.timer-display {
+      font-size: 60px;
+      font-weight: 300;
+      line-height: 1;
+      color: #ffffff;
+      margin-bottom: 12px;
+}      
+
+.adjust-btn {
+    border-radius: 12px;
+    background: black 50%;
+    opacity: 50%;
+    border: none;  
+    padding: 8px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    min-width: 70px;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.1s;
+    margin: 8px;
+}
+
+.btn-start{
+  border-radius: 30px;
+    background: rgb(255, 255, 255) 50%;
+    opacity: 50%;
+    border: 1px solid;
+    border-color: #ffffff;  
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000; 
+    cursor: pointer;
+    min-width: 70px;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.1s;
+    margin: 10px;
+    width: 350px;
+}
+
+.btn-continue {
+
+    background: #ffffff;
+    opacity: 50%;
+    border-color: #ffffff; 
+    border: 1px solid;
+    color: #000000;
+    cursor: pointer;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.1s;
+    }
+
+    /* Stop – dim red, white text */
+    .btn-stop {
+      background: #f28b82; /* dimmed red */
+      color: #000000;
+      border: 1px solid;
+      border-color: #ffffff;
+    }
+
+    /* Restart – pastel, dim black text */
+    .btn-restart {
+      background: #787878; /* pastel yellow */
+      color: #000000;      /* dim black */
+      border: 1px solid;
+      border-color: #ffffff;
+    }
+
+    .main-btn {
+      border-radius: 30px;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 12px 16px;
+      margin: 12px 16px;
+      cursor: pointer;
+      min-width: 120px;
+      transition: transform 0.08s ease, box-shadow 0.08s ease;
+    }
+    
+    body {
+          background-image: url("first.jpg"), url("second.jpg"), url("third.png"), url("fourth.png");
+      /* Make it full desktop width & height */
+
+      background-size: cover;        /* cover full screen */
+      background-position: center;   /* center the image */
+      background-repeat: no-repeat;
+      background-attachment: fixed;  /* nice effect on scroll */
+      font-family: system-ui, sans-serif;
+      color
+    }
+
+    /* Optional overlay to make text readable */
+  
+
+
+    /* Button in upper right corner */
+    .toggle-btn {
+      
+      top: 0px;
+      right: 20px;
+      padding: 8px;
+      width: 120px;
+      height: 56;
+      margin: 0;
+      display: flex;
+      
+    }
+
+    .toggle-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      background: #ffffff;
+    }
+
+    .toggle-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }

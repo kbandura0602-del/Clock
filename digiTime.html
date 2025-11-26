@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  </div>
+  <!-- Button in upper right corner -->
+  <button class="toggle-btn" id="toggleBgBtn">Change background</button>
+
+  <h2>Digital clock</h2>
+  <div class="clock"> 
+    <div>
+      <span id="hour">00</span>
+      <span class="text">Hours</span> 
+    </div>
+    <div>
+      <span id="minute">00</span>
+      <span class="text">Minutes</span> 
+    </div>
+    <div>
+      <span id="second">00</span>
+      <span class="text">Seconds</span> 
+    </div>
+    <div>
+      <span id="ampm">AM</span>
+      
+    </div>
+  </div>
+
+  <div class="timer-app">
+    <div class="timer-display" id="timerDisplay" aria-live="polite">00:00</div>
+
+    <!-- Configuration controls (add/subtract + START) -->
+    <div class="controls" id="configControls">
+      <button class="adjust-btn" id="add5">+5</button>
+      <button class="adjust-btn" id="add10">+10</button>
+      <button class="adjust-btn" id="sub5">-5</button>
+      <button class="adjust-btn" id="sub10">-10</button>
+
+    </div>
+
+    <div class="controls" id="startControls">
+      <button class="btn-start" id="startBtn">Start</button>
+    </div>
+
+    <!-- Running controls (RESTART, STOP / CONTINUE) -->
+    <div class="controls hidden" id="runningControls">
+      <button class="main-btn btn-restart" id="restartBtn">Restart</button>
+      <button class="main-btn btn-stop" id="stopBtn">Stop</button>
+      <button class="main-btn btn-continue hidden" id="continueBtn">Continue</button>
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
